@@ -5,9 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gallery | Santa Daryl</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-image: url('https://www.transparenttextures.com/patterns/giftly.png');
+    }
+  </style>
 </head>
-<body class="bg-red-50 text-gray-900">
-  <header class="bg-red-600 text-white p-4 shadow">
+<body class="bg-red-100 text-gray-900">
+  <header class="bg-green-700 text-white p-4 shadow">
     <div class="container mx-auto flex justify-between items-center">
       <h1 class="text-2xl font-bold">Santa Daryl</h1>
       <nav class="space-x-4">
@@ -19,11 +24,16 @@
     </div>
   </header>
   <main class="container mx-auto p-6">
-    <h2 class="text-3xl font-semibold mb-4">Santa's Photo Gallery</h2>
-    <p class="mb-4">Click below to view our magical photo albums hosted on SmugMug:</p>
-    <a href="https://santadaryl.smugmug.com/" target="_blank" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">View Gallery</a>
+    <h2 class="text-3xl font-semibold mb-4 text-green-900">Meet Santa Daryl</h2>
+    <p class="mb-6 text-lg">Take a peek at Santa Daryl spreading cheer across events big and small!</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <img src="images/santa1.jpg" class="rounded shadow-md w-full object-cover" alt="Santa Daryl">
+      <img src="images/santa2.jpg" class="rounded shadow-md w-full object-cover" alt="Santa Daryl">
+      <img src="images/santa3.jpg" class="rounded shadow-md w-full object-cover" alt="Santa Daryl">
+      <img src="images/santa4.jpg" class="rounded shadow-md w-full object-cover" alt="Santa Daryl">
+    </div>
   </main>
-  <footer class="bg-red-600 text-white p-4 mt-8 text-center">
+  <footer class="bg-green-700 text-white p-4 mt-8 text-center">
     &copy; 2025 Santa Daryl. All rights reserved.
   </footer>
 </body>
