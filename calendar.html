@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calendar | Santa Daryl</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<style>
+  body {
+    background-image: url('images/christmas-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  header, footer {
+    background: rgba(139, 0, 0, 0.8);
+  }
+  nav a {
+    font-weight: bold;
+  }
+  .twinkle {
+    animation: twinkle 1s infinite alternate;
+  }
+  @keyframes twinkle {
+    from { opacity: 1; }
+    to { opacity: 0.3; }
+  }
+</style>
+</head>
+<body class="border-8 border-yellow-300 rounded-lg shadow-lg" class="bg-white text-gray-900">
+  <header class="bg-red-700 text-white p-4 shadow">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Santa Daryl</h1>
+      <nav class="space-x-4">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="gallery.html" class="hover:underline">Gallery</a>
+        <a href="booking.html" class="hover:underline">Booking</a>
+        <a href="calendar.html" class="hover:underline">Calendar</a>
+        <a href="contact.html" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container mx-auto p-6 text-center">
+    <h2 class="text-3xl font-semibold mb-4 text-red-900">Santa’s Calendar – December 2025</h2>
+    <table class="w-full text-center border border-red-300 shadow">
+      <thead class="bg-red-100">
+        <tr>
+          <th class="p-2">Sun</th>
+          <th class="p-2">Mon</th>
+          <th class="p-2">Tue</th>
+          <th class="p-2">Wed</th>
+          <th class="p-2">Thu</th>
+          <th class="p-2">Fri</th>
+          <th class="p-2">Sat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="p-2 text-gray-400">30</td><td class="p-2">1</td><td class="p-2">2</td><td class="p-2">3</td><td class="p-2">4</td><td class="p-2">5</td><td class="p-2">6</td>
+        </tr>
+        <tr>
+          <td class="p-2">7</td><td class="p-2">8</td><td class="p-2 bg-green-100 font-bold">9</td><td class="p-2">10</td><td class="p-2">11</td><td class="p-2">12</td><td class="p-2">13</td>
+        </tr>
+        <tr>
+          <td class="p-2">14</td><td class="p-2">15</td><td class="p-2">16</td><td class="p-2">17</td><td class="p-2">18</td><td class="p-2">19</td><td class="p-2">20</td>
+        </tr>
+        <tr>
+          <td class="p-2 bg-green-100 font-bold">21</td><td class="p-2">22</td><td class="p-2">23</td><td class="p-2">24</td><td class="p-2 bg-red-200 font-bold">25 🎅</td><td class="p-2">26</td><td class="p-2">27</td>
+        </tr>
+        <tr>
+          <td class="p-2">28</td><td class="p-2">29</td><td class="p-2">30</td><td class="p-2 text-gray-400">1</td><td class="p-2 text-gray-400">2</td><td class="p-2 text-gray-400">3</td><td class="p-2 text-gray-400">4</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="mt-6">
+      <a href="calendar-nov.html" class="text-green-700 hover:underline mr-4">&larr; November</a>
+      <a href="calendar-jan.html" class="text-green-700 hover:underline">January &rarr;</a>
+    </div>
+  </main>
+  <footer class="bg-red-700 text-white p-4 mt-8 text-center">
+    &copy; 2025 Santa Daryl. All rights reserved.
+  </footer>
+</body>
+</html>

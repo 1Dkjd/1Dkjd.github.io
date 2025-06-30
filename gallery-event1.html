@@ -3,13 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Santa Daryl</title>
+  <title>Event Gallery | Santa Daryl</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <style>
-    body {
-      background: linear-gradient(to bottom right, #fef3c7, #fde68a);
-    }
-  </style>
 <style>
   body {
     background-image: url('images/christmas-bg.jpg');
@@ -33,24 +28,28 @@
   }
 </style>
 </head>
-<body class="border-8 border-yellow-300 rounded-lg shadow-lg" class="text-gray-900">
-  <header class="bg-red-700 text-white p-4 shadow">
+<body class="border-8 border-yellow-300 rounded-lg shadow-lg" class="bg-white text-gray-900">
+  <header class="bg-green-700 text-white p-4 shadow">
     <div class="container mx-auto flex justify-between items-center">
       <h1 class="text-2xl font-bold">Santa Daryl</h1>
       <nav class="space-x-4">
         <a href="index.html" class="hover:underline">Home</a>
         <a href="gallery.html" class="hover:underline">Gallery</a>
         <a href="booking.html" class="hover:underline">Booking</a>
+        <a href="calendar.html" class="hover:underline">Calendar</a>
         <a href="contact.html" class="hover:underline">Contact</a>
       </nav>
     </div>
   </header>
   <main class="container mx-auto p-6 text-center">
-    <h2 class="text-4xl font-semibold mb-6 text-red-900">Welcome to Santa Daryl’s Official Site</h2>
-    <p class="mb-8 text-lg">Spreading Christmas magic one visit at a time.</p>
-    <a href="booking.html" class="inline-block bg-green-600 text-white px-6 py-3 rounded-full text-lg hover:bg-green-700">Book Santa Now</a>
+    <h2 class="text-3xl font-semibold mb-4 text-green-900">Private Event Photos</h2>
+    <p class="mb-6 text-lg">Only guests with the password can view this page.</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <img src="images/santa1.jpg" class="rounded shadow-md w-full object-cover" alt="Event Santa">
+      <img src="images/santa2.jpg" class="rounded shadow-md w-full object-cover" alt="Event Santa">
+    </div>
   </main>
-  <footer class="bg-red-700 text-white p-4 mt-8 text-center">
+  <footer class="bg-green-700 text-white p-4 mt-8 text-center">
     &copy; 2025 Santa Daryl. All rights reserved.
   </footer>
 </body>
