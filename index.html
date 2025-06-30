@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Santa Daryl</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <style>
     body {
       margin: 0;
-      font-family: 'Mountains of Christmas', cursive;
+      font-family: 'Fredoka', sans-serif;
       background: url('images/christmas-bg.jpg') no-repeat center center fixed;
       background-size: cover;
       color: #fff;
@@ -24,7 +24,8 @@
 
     header h1 {
       margin: 0;
-      font-size: 2em;
+      font-size: 2rem;
+      color: #fff;
     }
 
     nav a {
@@ -32,6 +33,7 @@
       margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
+      font-size: 1rem;
     }
 
     nav a:hover {
@@ -39,24 +41,37 @@
     }
 
     .container {
-      background: rgba(0, 0, 0, 0.6);
-      padding: 30px;
+      background: rgba(0, 0, 0, 0.75);
+      padding: 40px;
       margin: 40px auto;
       max-width: 800px;
       border-radius: 15px;
-      box-shadow: 0 0 20px gold;
+      box-shadow: 0 0 25px gold;
+    }
+
+    .container h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #fff;
+      text-shadow: 1px 1px 2px black;
+    }
+
+    .container p {
+      font-size: 1.2rem;
+      margin-top: 0;
+      color: #eee;
     }
 
     .hero-image img {
       max-width: 300px;
       border: 5px solid white;
       border-radius: 10px;
-      box-shadow: 0 0 15px gold;
+      box-shadow: 0 0 20px gold;
       margin: 20px 0;
     }
 
     .expect {
-      background: rgba(255, 255, 255, 0.9);
+      background: rgba(255, 255, 255, 0.95);
       color: #333;
       padding: 20px;
       margin: 30px 0;
@@ -64,14 +79,16 @@
     }
 
     .expect h2 {
-      margin-top: 0;
       color: #b30000;
+      margin-bottom: 15px;
+      font-size: 1.5rem;
     }
 
     .expect ul {
       list-style: none;
       padding: 0;
-      font-size: 1.2em;
+      font-size: 1.1rem;
+      line-height: 1.6;
     }
 
     .expect li::before {
@@ -83,7 +100,7 @@
       color: white;
       border: none;
       padding: 15px 30px;
-      font-size: 1.2em;
+      font-size: 1.2rem;
       border-radius: 10px;
       cursor: pointer;
       margin-top: 20px;
@@ -98,6 +115,7 @@
       background: #b30000;
       padding: 15px;
       color: white;
+      font-size: 0.9rem;
       border-top: 5px solid gold;
       margin-top: 30px;
     }
@@ -119,7 +137,7 @@
     <p>Spreading Christmas magic one visit at a time.</p>
 
     <div class="hero-image">
-      <img src="images/santa1.jpg" alt="Santa Daryl spreading cheer">
+      <img src="images/santa1.jpg" alt="Santa Daryl spreading cheer" />
     </div>
 
     <div class="expect">
